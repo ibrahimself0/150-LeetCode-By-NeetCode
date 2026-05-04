@@ -16,7 +16,7 @@ class Solution:
                 elif token == "*":
                     stack.append(a * b)
                 elif token == "/":
-                    stack.append(int(a / b))\
+                    stack.append(int(a / b))
         
         return stack[0]
 
