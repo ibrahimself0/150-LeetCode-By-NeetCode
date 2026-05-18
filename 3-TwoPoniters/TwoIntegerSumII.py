@@ -3,7 +3,7 @@ class Solution:
         sortedList = sorted(numbers)
         n = len(numbers) - 1
         j = 0
-        while n > 0 and j< len(numbers) - 1:
+        while n > 0 and j < len(numbers) - 1:
             print(sortedList[j], sortedList[n])
             if(sortedList[j] + sortedList[n] == target):
                 return [sortedList[j],sortedList[n]] 
