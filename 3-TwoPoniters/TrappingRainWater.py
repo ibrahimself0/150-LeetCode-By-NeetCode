@@ -12,7 +12,7 @@ class Solution:
                 leftMax = max(leftMax,height[l])
                 res += leftMax - height[l]
             else:
-                r=-1    
+                r - =1    
                 rightMax = max(rightMax,height[r])
                 res += rightMax - height[r]
 
