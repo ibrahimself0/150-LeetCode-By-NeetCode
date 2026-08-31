@@ -3,7 +3,6 @@ class Solution:
     def minEatingSpeed(self, piles: list[int], h: int) -> int:
         l,r = 1,max(piles)
         res = r
-
         while l<=r:
             k = (l + r) // 2
             hours = 0 
